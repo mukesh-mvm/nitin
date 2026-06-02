@@ -3,13 +3,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ContactSection from "../ContactSection";
-import Navbar from "../Navbar";
 
 
 const ContactUsPage = () => {
   return (
     <div className="w-full text-white">
-        <Navbar/>
       {/* HERO SECTION */}
       <motion.section
         className="relative w-full h-[70vh] md:h-[85vh] flex items-center justify-center text-center overflow-hidden bg-cover bg-center"

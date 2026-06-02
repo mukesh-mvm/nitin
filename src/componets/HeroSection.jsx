@@ -7,13 +7,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
 {
-image: "/images/slide1.jpg",
+image: "/images/slide5.png",
 title: "Electrical setup",
 description:
 "Safe and professional internal electrical wiring for new and existing",
 },
 {
-image: "/images/slide2.jpg",
+image: "/images/slide6.png",
 title: "Smart Lighting Setup",
 description:
 "Upgrade your home with energy-efficient smart lighting systems.",
@@ -53,7 +53,7 @@ return ( <section className="relative h-[70vh] md:h-screen overflow-hidden">
        className="object-cover"
      />
 
-```
+
     <div className="absolute inset-0 bg-black/50" />
     <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
   </div>
@@ -70,7 +70,7 @@ return ( <section className="relative h-[70vh] md:h-screen overflow-hidden">
       </p>
 
       <Link
-        href="/contact"
+        href="/contact-us"
         className="inline-block mt-8 px-8 py-3 rounded-full bg-yellow-400 text-black font-semibold hover:bg-yellow-500 transition"
       >
         Contact Us

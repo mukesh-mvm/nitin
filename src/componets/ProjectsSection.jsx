@@ -79,7 +79,7 @@ return ( <section className="bg-[#0a0a0a] py-24"> <div className="max-w-7xl mx-a
     {projects.map((project, index) => (
       <div
         key={project.id}
-        className="mb-32"
+        className="mb-20 md:mb-32"
       >
         {/* Heading */}
         <div className="mb-10">
@@ -99,7 +99,7 @@ return ( <section className="bg-[#0a0a0a] py-24"> <div className="max-w-7xl mx-a
         {/* Gallery */}
         <div className="grid lg:grid-cols-2 gap-4">
           
-          <div className="relative h-[500px] overflow-hidden rounded-3xl">
+          <div className="relative h-[280px] sm:h-[400px] lg:h-[500px] overflow-hidden rounded-3xl">
             <Image
               src={project.images[0]}
               alt={project.name}
@@ -112,7 +112,7 @@ return ( <section className="bg-[#0a0a0a] py-24"> <div className="max-w-7xl mx-a
             {project.images.slice(1).map((image, i) => (
               <div
                 key={i}
-                className="relative h-[242px] overflow-hidden rounded-3xl"
+                className="relative h-[130px] sm:h-[180px] md:h-[242px] overflow-hidden rounded-3xl"
               >
                 <Image
                   src={image}

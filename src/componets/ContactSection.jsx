@@ -60,8 +60,11 @@ const ContactSection = () => {
             repairs, and other services are carried out safely and effectively.
           </p>
 
-          <div className="flex items-center gap-6 mt-8">
-            <button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 font-semibold rounded-lg shadow-md transition">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
+            <button 
+              onClick={() => document.getElementById("contact-form-section")?.scrollIntoView({ behavior: "smooth" })}
+              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 font-semibold rounded-lg shadow-md transition cursor-pointer"
+            >
               Contact Us
             </button>
             <div className="flex items-center gap-3">
@@ -70,7 +73,9 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-400">Have any questions?</p>
-                <p className="text-lg font-semibold text-white">+91-9335561421</p>
+                <a href="tel:+919335561421" className="text-lg font-semibold text-white hover:text-orange-500 transition-colors duration-200">
+                  +91-9335561421
+                </a>
               </div>
             </div>
           </div>
@@ -78,6 +83,7 @@ const ContactSection = () => {
 
         {/* Right form */}
         <motion.div
+          id="contact-form-section"
           initial={{ y: 60, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, ease: "easeOut" }}

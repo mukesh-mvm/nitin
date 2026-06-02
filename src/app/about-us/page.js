@@ -1,12 +1,13 @@
 
+import AboutUs from "@/componets/about/AboutUs ";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-    {/* <AboutUs/> */}
+    <AboutUs/>
     <div>
-      about const first 
+      
     </div>
     </>
   );

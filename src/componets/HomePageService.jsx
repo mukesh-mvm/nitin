@@ -134,7 +134,7 @@ export default function HelpBrands() {
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-extrabold text-center mb-16"
       >
-        Residential Electrical<span className="text-orange-400">{" "}SERVICES</span>
+        Residential Electrical <br className="sm:hidden" /><span className="text-orange-400">SERVICES</span>
       </motion.h2>
 
       {/* Cards */}
@@ -186,7 +186,7 @@ export default function HelpBrands() {
         viewport={{ once: true }}
         className="text-4xl md:text-5xl font-extrabold text-center mb-16 pt-5"
       >
-       Commercial Electrical<span className="text-orange-400">{" "}SERVICES</span>
+       Commercial Electrical <br className="sm:hidden" /><span className="text-orange-400">SERVICES</span>
       </motion.h2>
       <motion.div
         variants={container}

@@ -13,8 +13,8 @@ const ExperienceCentreBanner = () => {
           backgroundPosition: "center",
         }}
       >
-        {/* Left Text Section with curved right edge */}
-        <div className="relative z-10 w-full md:w-1/2 h-full bg-[#472951]/90 text-white p-6 sm:p-10 flex flex-col justify-center rounded-r-[100px] backdrop-blur-sm">
+        {/* Left Text Section with curved right edge on desktop, fitting container on mobile */}
+        <div className="relative z-10 w-full md:w-1/2 h-full bg-[#472951]/85 text-white p-6 sm:p-10 flex flex-col justify-center rounded-none md:rounded-r-[100px] backdrop-blur-xs">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug">
             Come, see endless designs
             <br />
@@ -23,7 +23,7 @@ const ExperienceCentreBanner = () => {
           <p className="mt-3 text-sm sm:text-base text-white/90">
             Walk into any of our centres in 10+ cities
           </p>
-          <button className="mt-5 max-w-[200px] bg-[#ff5a5f] hover:bg-[#e44a4e] text-white px-6 py-2 rounded-full text-sm font-semibold transition shadow">
+          <button className="mt-5 max-w-[200px] bg-[#ff5a5f] hover:bg-[#e44a4e] text-white px-6 py-2 rounded-full text-sm font-semibold transition shadow hover:scale-105 active:scale-95 duration-200">
             Find one near you &rarr;
           </button>
         </div>

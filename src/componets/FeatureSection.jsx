@@ -82,7 +82,7 @@ const FeatureSection = () => {
             {[
               "Professional Residential Electrical Services",
               "Reliable Commercial Electrical Solutions",
-              "24/7 Emergency Support Anytime You Need",
+              "Focus on Upgrades & Modernization You Need",
               "Experienced and Certified Electricians",
               "Safe, Efficient, and Cost-Effective Work",
               "Proven Track Record of Successful Projects",

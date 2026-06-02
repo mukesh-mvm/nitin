@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../Navbar";
 
 const OfficeHero = ({heroContent}) => {
   // All content comes from this object
@@ -8,7 +7,6 @@ const OfficeHero = ({heroContent}) => {
 
   return (
     <>
-      <Navbar />
       <section className="relative w-full h-[60vh] md:h-[85vh] flex items-center justify-center text-center overflow-hidden">
         {/* Background Image */}
         <img
