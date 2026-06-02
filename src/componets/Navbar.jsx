@@ -11,7 +11,7 @@ const [serviceOpen, setServiceOpen] = useState(false);
 const navLinks = [
 { name: "Home", href: "/" },
 { name: "Projects", href: "/projects" },
-{ name: "About Us", href: "/about-us" },
+// { name: "About Us", href: "/about-us" },
 { name: "Contact Us", href: "/contact-us" },
 ];
 
@@ -132,12 +132,12 @@ return ( <header className="fixed top-0 left-0 w-full z-50"> <nav className="bac
           Home
         </Link>
 
-        <Link
+        {/* <Link
           href="/services"
           className="block text-white hover:text-yellow-400"
         >
           Services
-        </Link>
+        </Link> */}
 
         <Link
           href="/projects"
@@ -146,12 +146,12 @@ return ( <header className="fixed top-0 left-0 w-full z-50"> <nav className="bac
           Projects
         </Link>
 
-        <Link
+        {/* <Link
           href="/about"
           className="block text-white hover:text-yellow-400"
         >
           About Us
-        </Link>
+        </Link> */}
 
         <Link
           href="/contact"
