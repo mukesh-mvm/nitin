@@ -21,7 +21,7 @@ const ExperienceCentreBanner = () => {
             at our <span className="text-[#ff5a5f]">Experience Centre</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-white/90">
-            Walk into any of our centres in 50+ cities
+            Walk into any of our centres in 10+ cities
           </p>
           <button className="mt-5 max-w-[200px] bg-[#ff5a5f] hover:bg-[#e44a4e] text-white px-6 py-2 rounded-full text-sm font-semibold transition shadow">
             Find one near you &rarr;

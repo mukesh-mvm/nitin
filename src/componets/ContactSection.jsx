@@ -52,7 +52,7 @@ const ContactSection = () => {
         >
           <div className="h-[3px] w-12 bg-orange-500 mb-6" />
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-snug">
-            Why Hire Hedgehog Electric <br /> As Your Electrician?
+            Why Hire Nitin <br /> Electricals Contractor as Electrician?
           </h2>
           <p className="text-gray-300 mb-8 text-lg leading-relaxed">
             Our electricians are hardworking, dedicated, and focused on meeting the needs of our clients. 
