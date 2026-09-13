@@ -40,10 +40,10 @@ export default function Navbar() {
               />
               <div className="flex flex-col">
                 <span className="text-xl sm:text-2xl font-extrabold text-yellow-400 leading-none">
-                  Nitin Electricals
+                  Nitin Electricals Contractor
                 </span>
                 <span className="text-white/80 text-xs tracking-wider lowercase mt-1 font-medium">
-                  nitinelectricals.com
+                  nitinelectricalscontractor.com
                 </span>
               </div>
             </Link>
